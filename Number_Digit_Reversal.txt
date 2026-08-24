@@ -1,0 +1,11 @@
+Read N
+Set reverse ← 0
+While N > 0 do
+       digit ← N MOD 10
+       reverse ← (reverse × 10) + digit
+       N ← N DIV 10
+   End While
+
+Print reverse
+
+End Algorithm
